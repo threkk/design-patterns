@@ -1,0 +1,20 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+repositories {
+    mavenCentral()
+    add(new org.apache.ivy.plugins.resolver.URLResolver()) {
+        name = 'SourceForge'        
+        addArtifactPattern 'http://downloads.sourceforge.net/project/jrabbit/no%20src/The%20Java%20Rabbit%20Engine%20v1.0.1%20%28no%20src%29.jar?r=http%3A%2F%2Fsourceforge.net%2Fprojects%2Fjrabbit%2Ffiles%2Fno%2520src%2F&ts=1400874023&use_mirror=heanet'
+    }
+}
+
+dependencies {
+    compile 'jrabbit:The%20Java%20Rabbit%20Engine%20v1.0.1%20%28no%20src%29@jar'
+    compile 'org.lwjgl.lwjgl:lwjgl:2.9.1'
+}
+
+jar {
+    baseName = 'micron'
+    version = '1.1'
+}

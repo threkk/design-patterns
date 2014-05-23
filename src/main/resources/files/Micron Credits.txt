@@ -1,0 +1,12 @@
+Micron is an abstract shooter for the mouse and keyboard.
+
+Micron is built via the Java Rabbit Engine.
+
+Art and coding by Chris Molini.
+
+Music by Kevin MacLeod via Royalty Free Music: http://incompetech.com/m/c/royalty-free/.
+
+
+
+Thank you for playing!
+ 

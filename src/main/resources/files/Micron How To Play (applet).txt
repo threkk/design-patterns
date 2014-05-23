@@ -1,0 +1,20 @@
+CONTROLS:
+    WASD: Move
+    Left Mouse Button or SPACE: Use weapon
+    ESCAPE: Quit to Menu
+    1: Use Machine Gun
+    2: Use Charge Blast
+    3: Use Missile Launcher
+    F11: Toggle Performance Profiler
+    =: Toggle laptop and desktop mode.
+
+LAPTOP MODE
+	In case people do not have a satisfactory mouse, Micron allows for "laptop mode", where the player uses the arrow keys to aim.
+	
+DESKTOP MODE
+	The default mode, where the player uses the mouse to aim. This is the recommended gameplay mode.
+
+The bar at the bottom shows your current health. It regenerates over time.
+
+NOTE: Press (CONTROL + TAB) to toggle fullscreen mode.
+ 
